@@ -1,0 +1,237 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;  
+   
+}
+header p {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    padding: 10px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.background{position: relative;}
+
+.background img{
+ width: 100%;
+ -webkit-filter: brightness(0.5);
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+/* article */
+article{
+    margin: 100px;
+   
+}
+.line{border-bottom: 15px solid rgb(234, 232, 232);
+       width: 100%;}
+.frist{
+  padding: 50px 0  0 50px ;
+}
+.sec{
+    padding: 50px 0  0 50px ;
+  }
+  .thr{
+    padding: 50px 0  0 50px ;
+  }
+  .fourth{
+    padding: 50px 0  0 50px ;
+  }
+.frist h1{
+    color: rgb(149, 223, 198);
+    font-size: 100px;
+
+}
+.frist h2{
+    padding: 15px 0;
+    font-size: 50px;
+    color: gray;
+}
+
+.frist p{
+    color: rgb(133, 133, 137);
+    padding: 50px 0;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+    .sec h2{
+        padding: 15px 0;
+        font-size: 50px;
+        color: gray;
+    }
+    
+    .sec p{
+        color: rgb(133, 133, 137);
+        padding: 50px 0;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;}   
+
+        .thr h2{
+            padding: 15px 0;
+            font-size: 50px;
+            color: gray;
+        }
+
+
+        .thr h3{
+            
+            font-size: 40px;
+            color: gray;
+        }
+        
+        .thr p{
+            color: rgb(133, 133, 137);
+            padding: 50px 0;
+            font-size: 35px;
+            font-family: Arial, Helvetica, sans-serif;}    
+            
+            .list{
+                text-align: left;
+                white-space: nowrap;
+                /* 並排 */
+            }
+
+            .list li{
+                display: inline-block;
+                width: 30%;
+                /* 並排 */
+
+            }  
+            
+
+            .list li p{
+                color: rgb(133, 133, 137);
+                font-size: 35px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+      
+                
+  
+
+.warp{
+    display: flex;
+    width: 100%;
+    /*  height: 100%; X */
+}
+ .left{ width: 70%;
+    /* background: rgb(255, 127, 127); */
+}
+ .right{
+    width: 30%;
+    background: rgb(97, 194, 162);
+ }           
+
+ .peson-image{
+    /* display: flex;  */
+    text-align: center;
+    margin:70px 20px 20px 20px;
+    font-size: 30px;
+    color: white;
+ }
+
+ .peson-image img{
+    margin: auto;
+    max-width: 40%;
+    max-height: 40%;
+
+    border-radius: 50%;    /* 圓形圖片 */
+ }
+
+ .peson-image h1{
+    font-size: 80px;
+    /* align-items: center;  
+    justify-content: center; */
+ }
+ .peson-image p{
+    margin:40px 20px 20px 20px;
+}
+
+.black{
+  margin: 30px 100px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.black p{
+    margin:70px 20px 20px 20px;
+    font-size: 40px;  
+}
+
+ /*  section .peson-image x */
+ /* thr 右左 */
+ .wrap-pic{
+    display: flex;
+    width: 100%;
+    padding:80px 0 ;
+    border-bottom: 6px solid rgb(234, 232, 232);
+ }
+.wrap-pic-left{
+   width: 45%;
+}
+.wrap-pic-left img{
+    border-radius: 5%;
+    /* 圓角圖片 */
+}
+
+.wrap-pic-right{
+    width: 55%;
+ }
+
+ .wrap-pic3{
+    display: flex;
+    width: 100%;
+    padding:80px 0 ;
+ }
+.wrap-pic-left3{
+   width: 45%;
+}
+.wrap-pic-left3 img{
+    border-radius: 5%;
+    /* 圓角圖片 */
+}
+
+.wrap-pic-right3{
+    width: 55%;
+ }
+
+ .fourth h2{
+    padding: 15px 0;
+    font-size: 50px;
+    color: gray;
+}
+
+
+.fourth p{
+    color: rgb(133, 133, 137);
+    padding: 50px 0;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;} 
+
+    input[type="text"]{
+        width: 100%;
+    }
+
+    .enter-block-name{
+      width: 50%;
+    }
+
+    .enter-block-email{
+        width: 50%;
+    }
+    .enter-block{
+        display: flex;
+    }
+    input[type="name"]{
+        width: 100%;
+    }
+    input[type="email"]{
+        width: 100%;
+    }
+    textarea{
+        width: 100%;
+    }
