@@ -4,19 +4,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/59c15d252f.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- fontawesome  -->
+
     <title>Document</title>
   </head>
   <body>
     <div class="warp">
       <div class="left">
-        <header>
-          <p>Willis Corto</p>
+        <header class="header">
+          <p class="headerleft">Willis Corto</p>
+          <button class="barIcon"><i class="fa-solid fa-list"></i></button>
         </header>
         <section class="background">
-          <img
-            src="img/3-海塞君- @haisaijun1  Twitter.jpg"
-            alt="luxiem_background"
-          />
+          <img src="img/Image.jpg" alt="luxiem_background" />
         </section>
         <main>
           <article class="frist">
@@ -44,14 +48,32 @@
             </p>
             <div class="list">
               <ul>
-                <li><p>Write all the code</p></li>
-                <li><p>Stack small boxes</p></li>
+                <li class="list-s">
+                  <i class="fa-solid fa-pencil"></i>
+                  <span class="list-right">Write all the code</span>
+                </li>
+                <li class="list-s">
+                  <i class="fa-solid fa-pencil"></i>
+                  <span class="list-right">Stack small boxes</span>
+                </li>
                 <br />
-                <li><p>Read books and stuff</p></li>
-                <li><p>Drink much coffee</p></li>
+                <li class="list-s">
+                  <i class="fa-solid fa-pencil"></i>
+                  <span class="list-right">Read books and stuff</span>
+                </li>
+                <li class="list-s">
+                  <i class="fa-solid fa-pencil"></i>
+                  <span class="list-right">Drink much coffee</span>
+                </li>
                 <br />
-                <li><p>Lightning bolt</p></li>
-                <li><p>Shadow clone technique</p></li>
+                <li class="list-s">
+                  <i class="fa-solid fa-pencil"></i>
+                  <span class="list-right">Lightning bolt</span>
+                </li>
+                <li class="list-s">
+                  <i class="fa-solid fa-pencil"></i>
+                  <span class="list-right">Shadow clone technique</span>
+                </li>
               </ul>
             </div>
           </article>
@@ -66,7 +88,7 @@
 
             <div class="wrap-pic">
               <div class="wrap-pic-left">
-                <img src="img/pic01.jpg" alt="one" />
+                <img src="img/Image01ike.jpg" alt="one" />
               </div>
 
               <div class="wrap-pic-right">
@@ -80,7 +102,7 @@
 
             <div class="wrap-pic">
               <div class="wrap-pic-left">
-                <img src="img/pic02.jpg" alt="two" />
+                <img src="img/ike02.jpg" alt="two" />
               </div>
 
               <div class="wrap-pic-right">
@@ -94,7 +116,7 @@
 
             <div class="wrap-pic3">
               <div class="wrap-pic-left3">
-                <img src="img/pic03.jpg" alt="three" />
+                <img src="img/ike03.jpg" alt="three" />
               </div>
 
               <div class="wrap-pic-right3">
@@ -119,15 +141,32 @@
 
             <div class="enter-block">
               <form action="">
-                <div class="enter-block-name">
-                  <input type="name" id="name" placeholder="Name" />
+                <div class="enter-blockNameEmail">
+                  <div class="enter-block-name">
+                    <input
+                      type="name"
+                      id="name"
+                      placeholder="Name"
+                      class="name_input"
+                    />
+                  </div>
+
+                  <div class="enter-block-email">
+                    <input
+                      type="email"
+                      id="email"
+                      placeholder="Email"
+                      class="email_input"
+                    />
+                  </div>
                 </div>
 
-                <div class="enter-block-email">
-                  <input type="email" id="email" placeholder="Email" />
-                </div>
-
-                <input type="text" id="subject" placeholder="Subject" />
+                <input
+                  type="text"
+                  id="subject"
+                  placeholder="Subject"
+                  class="subject_input"
+                />
                 <textarea
                   name="bio"
                   id="message"
@@ -136,31 +175,38 @@
                   placeholder="Message"
                 ></textarea
                 ><br />
-                <input type="submit" value="Send message" />
-                <input type="reset" value="Reset Form" />
+                <input type="submit" value="Send message" class="SendMessage" />
+                <input type="reset" value="Reset Form" class="ResetForm" />
               </form>
             </div>
           </article>
+          <footer>
+            <p>
+              © Untitled. All rights reserved. | Design: <span>HTML5 UP</span> |
+              Demo Images:<span>Unsplash</span>
+            </p>
+          </footer>
         </main>
-        <footer></footer>
       </div>
+      <!-- nav start -->
       <div class="right">
-        <!-- dgfhfdahfdklhfdhlkmfde -->
         <section class="peson-image">
-          <img src="img/ike.jpg" alt="image" />
+          <img src="img/ikehead.jpg" alt="image" />
           <h1>Willis Corto</h1>
           <p>
             I got reprogrammed by a rogue AI<br />
             and now I'm totally cray
           </p>
           <div class="black">
-            <p>About</p>
-            <p>Things can do</p>
-            <p>A Few Accomplishments</p>
-            <p>Contact</p>
+            <p class="black1">About</p>
+            <p class="black2">Things can do</p>
+            <p class="black3">A Few Accomplishments</p>
+            <p class="black4">Contact</p>
           </div>
         </section>
       </div>
+      <!-- nav end -->
     </div>
+    <script src="java_copy.js"></script>
   </body>
 </html>
